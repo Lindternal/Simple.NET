@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Simple.NET
+﻿public class Constants
 {
-    internal class Constants
-    {
-    }
+    public const string DatabaseFile = @"C:\Users\Lindternal\Documents\GitHub\Simple.NET\db.sqlite";
+    public const string DatabaseConnectionString = "Data Source=" + DatabaseFile;
 }
