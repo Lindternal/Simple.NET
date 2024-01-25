@@ -1,6 +1,6 @@
 ﻿using Microsoft.Data.Sqlite;
 
-File.Create(Constants.DatabaseFile).Close(); //IDisposable - to use "using" with custom class
+File.Create(Constants.DatabaseFile).Close();
 
 using (SqliteConnection databaseConnection = new SqliteConnection(Constants.DatabaseConnectionString))
 {
