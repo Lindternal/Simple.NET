@@ -203,3 +203,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+#Other
+*.sqlite

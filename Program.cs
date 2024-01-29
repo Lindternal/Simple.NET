@@ -2,7 +2,7 @@
 
 File.Create(Constants.DatabaseFile).Close();
 
-using (SqliteConnection databaseConnection = new SqliteConnection(Constants.DatabaseConnectionString))
+using (SqliteConnection databaseConnection = new SqliteConnection(MyConnectionString.ConnectionString))
 {
     databaseConnection.Open();
 
